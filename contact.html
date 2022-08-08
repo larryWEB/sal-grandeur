@@ -88,8 +88,11 @@
 
 
 
-<form id="contact-form">
+<form id="contact-form" action="https://formsubmit.co/el/nelade" method="POST">
 <h3 class="contact-form-head">CONTACT FORM</h3>
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_subject" value="A CLIENT JUST CONTACTED YOU">
+    <input type="hidden" name="_next" value="https://salgrandeur.com/thankyoucontact.html">
 <input type="text" name="your name" placeholder="Your Name" id="your-name" required>
 <input type="number" name="your number" placeholder="Phone Number" id="your-number" required>
 <input type="email" name="email" placeholder="Your Email" id="your-email" required>
