@@ -393,6 +393,88 @@ color:white;
   width:120px;
 }
 
+/* RAMADAN STYLE RULES */
+
+.ramadan{
+ padding-bottom:100px;
+ position:relative;
+ top:-300px;
+  z-index:-200;
+ background-color:white;
+ padding:10px;
+}
+
+.ramadan h1{
+font-size:45px;
+ text-align:center;
+padding:15px;
+}
+
+
+.ramadan p{
+
+ text-align:center;
+
+}
+
+.container{
+ display:flex;
+
+ justify-content:center;
+ align-items:center;
+ text-align:center;
+ gap:10px;
+ padding-bottom:5%;
+  padding-top:8%;
+}
+
+.ram-card-mother{
+  display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ text-align:center;
+}
+
+
+.ram-card  {
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ text-align:center;
+ width:50%;
+
+}
+
+
+.details-card{
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ padding-bottom:10px;
+ padding-top:20px;
+}
+
+.details-card p{
+font-size:14px;
+
+}
+
+
+.ram-btn button{
+ width:100px;
+ line-height:2;
+ border-radius:10px;
+ border:none;
+ background-color:deeppink;
+ color:white;
+ position:relative;
+left:12px;
+}
+
+
 
 /* NEW-COLLECTION STYLE RULES */
 
